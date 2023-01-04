@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "files": [
+      "app/Libraries/DB.php",
+      "app/Libraries/SCWoocommerceApi.php",
+      "app/Endpoints/SCLogin.php",
+      "app/Endpoints/SCRegister.php",
+      "app/Endpoints/SCEvents.php",
+      "app/Endpoints/SCEventsGet.php",
+      "app/Endpoints/SCGroups.php",
+      "app/Helpers/functions.php",
+      "app/Migration/SC_Migration.php",
+      "app/Libraries/SCHash.php"
+    ]
+  },
+  "require": {
+    "automattic/woocommerce": "^3.0"
+  }
+}
